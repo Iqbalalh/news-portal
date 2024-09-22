@@ -8,6 +8,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <head><link rel="icon" href="/assets/svg/logo-clr.svg" sizes="any" /></head>
       <body>{children}</body>
     </html>
   );
