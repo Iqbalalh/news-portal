@@ -9,9 +9,15 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "apexcharts": "^3.53.0",
+    "axios": "^1.7.7",
+    "dotenv": "^16.4.5",
+    "flowbite": "^2.5.1",
+    "flowbite-react": "^0.10.1",
+    "html-react-parser": "^5.1.16",
+    "next": "14.2.13",
     "react": "^18",
-    "react-dom": "^18",
-    "next": "14.2.13"
+    "react-dom": "^18"
   },
   "devDependencies": {
     "postcss": "^8",

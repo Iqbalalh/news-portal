@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    font-family: sans-serif;
+}
+
+@media (min-width: 768px) {
+  .extend-bg {
+    position: relative;
+    margin-left: calc(-50vw + 50%);
+    margin-right: calc(-50vw + 50%);
+    left: 0%;
+    right: 100%;
+    padding-left: 9.8vw;
+    padding-right: 9.8vw;
+  }
+
+  .iframe-height {
+    height: 65vh;
+  }
+
+  .img-content {
+    height: 60vh;
+  }
+
+}
